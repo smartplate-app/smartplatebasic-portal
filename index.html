@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart Plate Basic — Food Cost App, ייעוץ עסקי ודשבורד Prime Cost למסעדות</title>
+<meta name="description" content="Smart Plate Basic: הבית של FoodCostApp לניהול עלות מזון, שירות הייעוץ העסקי SmartPlate ודשבורדים חכמים שמאגדים Marketman, Tabit, BeeComm, Zester ו-Shift Organizer לחישוב Prime Cost אחד בזמן אמת." />
+<meta name="keywords" content="food cost, prime cost, ייעוץ מסעדות, דשבורד מסעדה, foodcostapp, smartplate, marketman, tabit, shift organizer, zester, beecomm, עלות מזון, עלות כוח אדם" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<link rel="canonical" href="https://smartplatebasic.com/" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Smart Plate Basic — Food Cost, ייעוץ ודשבורד Prime Cost" />
+<meta property="og:description" content="FoodCostApp לניהול עלות מזון, ייעוץ עסקי מ-SmartPlate, ודשבורד חכם שמאגד Marketman, Tabit, BeeComm, Zester ו-Shift Organizer למספר Prime Cost אחד." />
+<meta property="og:url" content="https://smartplatebasic.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="he_IL" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Smart Plate Basic — Food Cost, ייעוץ ודשבורד Prime Cost" />
+<meta name="twitter:description" content="FoodCostApp, ייעוץ עסקי SmartPlate, ודשבורד Prime Cost אחד לכל המערכות שלך." />
+
+<meta name="geo.region" content="IL" />
+<meta name="geo.placename" content="Israel" />
+<meta name="ICBM" content="32.0853, 34.7818" />
+
+<!-- Structured data — declarative JSON-LD only, no executable logic -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Smart Plate",
+  "alternateName": "Smart Plate Basic",
+  "url": "https://smartplatebasic.com",
+  "logo": "https://smartplatebasic.com/logo.png",
+  "foundingDate": "2006",
+  "email": "admin@smartplate.org",
+  "telephone": "058-458-4867",
+  "sameAs": ["https://smartplate.org", "https://foodcostapp.com", "https://www.instagram.com/nitsanbennet/"],
+  "description": "Smart Plate מלווה מסעדות ובתי קפה בישראל מאז 2006 עם כלי ניהול עלות מזון, ייעוץ עסקי תפעולי, ודשבורדים חכמים לחישוב Prime Cost בזמן אמת."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "מה זה Prime Cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prime Cost הוא סך עלות המזון (Food Cost) ועלות כוח האדם (Labor Cost) יחד, מבוטא כאחוז מהמכירות. זהו המדד החשוב ביותר לבחינת רווחיות מסעדה — מסעדות מנוהלות היטב שומרות עליו סביב 55%-65% ממחזור המכירות."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "מה זה FoodCostApp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FoodCostApp.com הוא כלי דיגיטלי לניהול עלות מזון: קולט חשבוניות ספקים, מחשב אוטומטית את אחוז עלות המזון מהמכירות, ועוקב אחר שינויי מחירים לאורך זמן."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "מה כולל שירות הייעוץ של SmartPlate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SmartPlate מלווה מסעדות ובתי קפה מאז 2006 בהקמה, תוכניות עסקיות, הנדסת תפריט, ובקרת עלויות מזון וכוח אדם — במטרה להחזיר השקעה תוך שנתיים או פחות."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "אילו מערכות מרוכזות בדשבורד החכם של Smart Plate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "הדשבורד מאגד נתונים בזמן אמת ממערכות Marketman, Tabit, BeeComm (ביקום כתומה), Zester ו-Shift Organizer, ומציג אותם כמדד Prime Cost אחד ברור."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Segoe UI',Arial,sans-serif;
+    background:#0a0a0a;
+    color:#f2f2f2;
+    direction:rtl;
+    line-height:1.7;
+  }
+  a{color:inherit}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+
+  header{
+    background:#0a0a0a;
+    border-bottom:1px solid #232323;
+    padding:18px 0;
+    position:sticky;
+    top:0;
+    z-index:10;
+  }
+  header .wrap{display:flex;align-items:center;justify-content:space-between}
+  .logo{font-weight:800;font-size:1.3rem;letter-spacing:1px}
+  .logo span{color:#ff2d95}
+  nav a{margin-right:22px;font-size:.95rem;text-decoration:none;color:#ccc}
+  nav a:hover{color:#ff2d95}
+
+  .hero{
+    text-align:center;
+    padding:90px 20px 70px;
+    background:radial-gradient(circle at 50% 0%, #1a0d14 0%, #0a0a0a 60%);
+    border-bottom:1px solid #1e1e1e;
+  }
+  .hero h1{font-size:2.3rem;font-weight:800;margin-bottom:18px}
+  .hero h1 span{color:#ff2d95}
+  .hero p{max-width:700px;margin:0 auto;color:#bdbdbd;font-size:1.1rem}
+
+  section.service{padding:70px 0;border-bottom:1px solid #1a1a1a}
+  section.service:nth-child(even){background:#0e0e0e}
+  .service .wrap{display:flex;gap:40px;align-items:center;flex-wrap:wrap}
+  .service .text{flex:1;min-width:280px}
+  .service h2{font-size:1.7rem;margin-bottom:14px;color:#fff}
+  .service h2 .tag{display:inline-block;background:#ff2d95;color:#fff;font-size:.7rem;padding:3px 10px;border-radius:20px;margin-left:10px;vertical-align:middle}
+  .service p{color:#c7c7c7;margin-bottom:18px}
+  .service ul{color:#c7c7c7;margin:0 0 18px 0;padding-right:20px}
+  .service ul li{margin-bottom:6px}
+  .btn{
+    display:inline-block;
+    background:#ff2d95;
+    color:#fff;
+    padding:12px 26px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:700;
+    font-size:.95rem;
+  }
+  .btn:hover{background:#e0217f}
+  .btn.outline{background:transparent;border:1px solid #ff2d95;color:#ff2d95}
+
+  .prime-box{
+    flex:1;min-width:280px;
+    background:#151515;
+    border:1px solid #2a2a2a;
+    border-radius:16px;
+    padding:30px;
+    text-align:center;
+  }
+  .prime-box .formula{font-size:1.05rem;color:#ff2d95;font-weight:700;margin-bottom:10px}
+  .prime-box .sources{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:16px}
+  .prime-box .sources span{background:#232323;border-radius:8px;padding:6px 12px;font-size:.8rem;color:#ddd}
+
+  .faq{padding:70px 0}
+  .faq h2{text-align:center;font-size:1.7rem;margin-bottom:36px}
+  .faq-item{border-bottom:1px solid #232323;padding:20px 0}
+  .faq-item h3{font-size:1.05rem;color:#ff2d95;margin-bottom:8px}
+  .faq-item p{color:#c7c7c7}
+
+  .social{padding:70px 0;background:#0e0e0e;text-align:center}
+  .social h2{font-size:1.7rem;margin-bottom:12px}
+  .social p.sub{color:#a8a8a8;margin-bottom:34px}
+  .reels{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
+  .reels .placeholder{
+    width:280px;
+    background:#151515;
+    border:1px dashed #333;
+    border-radius:16px;
+    padding:30px 18px;
+    color:#888;
+    font-size:.9rem;
+  }
+
+  footer{padding:40px 0;text-align:center;color:#888;font-size:.85rem;border-top:1px solid #1a1a1a}
+  footer a{color:#ff2d95;text-decoration:none}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="logo">SMART <span>PLATE</span></div>
+    <nav>
+      <a href="#foodcost">Food Cost App</a>
+      <a href="#consulting">ייעוץ</a>
+      <a href="#dashboard">דשבורד Prime Cost</a>
+      <a href="#faq">שאלות נפוצות</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>ניהול מסעדה חכם מתחיל ב<span>-Smart Plate</span></h1>
+    <p>שלושה שירותים, מטרה אחת: לדעת בדיוק כמה עולה כל צלחת וכל משמרת — ולראות את זה במספר אחד, ה-Prime Cost, בזמן אמת.</p>
+  </div>
+</section>
+
+<section class="service" id="foodcost">
+  <div class="wrap">
+    <div class="text">
+      <h2>Food Cost App <span class="tag">foodcostapp.com</span></h2>
+      <p>FoodCostApp הוא הכלי הדיגיטלי שלנו לניהול עלות מזון בזמן אמת. המערכת קולטת את חשבוניות הספקים שלך, מחשבת אוטומטית את אחוז עלות המזון מתוך המכירות, ועוקבת אחרי שינויי מחירים ואחוז חריגה — כדי שתדע בכל רגע נתון בדיוק כמה עולה לך כל מנה שיוצאת מהמטבח, ולא תגלה את זה רק בסוף החודש.</p>
+      <ul>
+        <li>קליטת חשבוניות ספקים ומעקב מחירים לאורך זמן</li>
+        <li>חישוב אוטומטי של אחוז עלות מזון מתוך המכירות</li>
+        <li>התראות על חריגות וקפיצות מחיר</li>
+      </ul>
+      <a class="btn" href="https://foodcostapp.com" target="_blank" rel="noopener">כניסה ל-FoodCostApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="service" id="consulting">
+  <div class="wrap">
+    <div class="text">
+      <h2>ייעוץ עסקי ותפעולי <span class="tag">smartplate.org</span></h2>
+      <p>מאז 2006 אנחנו מלווים מאות מסעדות, בתי קפה ורשתות בישראל — מהקמה ועד תפעול שוטף. אנחנו בונים תוכניות עסקיות, מבצעים הנדסת תפריט, ומטמיעים תהליכי בקרה על עלות מזון ועלות כוח אדם, כך שמסעדה חדשה תחזיר את ההשקעה תוך שנתיים או פחות, ומסעדה קיימת תשפר רווחיות בלי לפגוע באיכות.</p>
+      <ul>
+        <li>ליווי הקמת מסעדות ובתי קפה מא' ועד ת'</li>
+        <li>תוכניות עסקיות והנדסת תפריט</li>
+        <li>בקרת עלויות שוטפת ושיפור רווחיות</li>
+      </ul>
+      <a class="btn" href="https://smartplate.org" target="_blank" rel="noopener">לאתר הייעוץ smartplate.org</a>
+    </div>
+  </div>
+</section>
+
+<section class="service" id="dashboard">
+  <div class="wrap">
+    <div class="text">
+      <h2>דשבורד Prime Cost חכם</h2>
+      <p>אנחנו בונים לכל לקוח דשבורד ניהולי מותאם אישית שמאגד בזמן אמת נתונים ממספר מערכות בו-זמנית — במקום להיכנס לחמש מערכות שונות כל בוקר, בעל המסעדה רואה מסך אחד עם התמונה המלאה: מכירות, עלות מזון, עלות כוח אדם, וטיפים — הכל מתומצת למדד אחד, ה-Prime Cost.</p>
+      <a class="btn outline" href="mailto:admin@smartplate.org">רוצה דשבורד כזה? דברו איתנו</a>
+    </div>
+    <div class="prime-box">
+      <div class="formula">Prime Cost = Food Cost % + Labor Cost %</div>
+      <p style="color:#999;font-size:.85rem">כל הנתונים מתכנסים למספר אחד, בזמן אמת</p>
+      <div class="sources">
+        <span>Marketman</span>
+        <span>Tabit</span>
+        <span>BeeComm</span>
+        <span>Zester</span>
+        <span>Shift Organizer</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <h2>שאלות נפוצות</h2>
+    <div class="faq-item">
+      <h3>מה זה Prime Cost?</h3>
+      <p>Prime Cost הוא סך עלות המזון (Food Cost) ועלות כוח האדם (Labor Cost) יחד, מבוטא כאחוז מהמכירות. זהו המדד החשוב ביותר לבחינת רווחיות מסעדה — מסעדות מנוהלות היטב שומרות עליו סביב 55%-65% ממחזור המכירות.</p>
+    </div>
+    <div class="faq-item">
+      <h3>מה זה FoodCostApp?</h3>
+      <p>כלי דיגיטלי לניהול עלות מזון: קולט חשבוניות ספקים, מחשב אוטומטית את אחוז עלות המזון מהמכירות, ועוקב אחר שינויי מחירים לאורך זמן.</p>
+    </div>
+    <div class="faq-item">
+      <h3>מה כולל שירות הייעוץ של SmartPlate?</h3>
+      <p>ליווי מסעדות ובתי קפה מאז 2006 בהקמה, תוכניות עסקיות, הנדסת תפריט, ובקרת עלויות מזון וכוח אדם — במטרה להחזיר השקעה תוך שנתיים או פחות.</p>
+    </div>
+    <div class="faq-item">
+      <h3>אילו מערכות מרוכזות בדשבורד החכם?</h3>
+      <p>Marketman, Tabit, BeeComm (ביקום כתומה), Zester ו-Shift Organizer — עם אפשרות להוסיף מערכות נוספות לפי הצורך של הלקוח.</p>
+    </div>
+  </div>
+</section>
+
+<section class="social">
+  <div class="wrap">
+    <h2>עוד קצת עלינו</h2>
+    <p class="sub">רגעים מהדרך — עוד לבוא</p>
+    <div class="reels">
+      <div class="placeholder">מקום לריל ראשון — יתעדכן בקרוב</div>
+      <div class="placeholder">מקום לריל שני — יתעדכן בקרוב</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Smart Plate © 2026 · <a href="mailto:admin@smartplate.org">admin@smartplate.org</a> · 058-458-4867
+  </div>
+</footer>
+
+</body>
+</html>
